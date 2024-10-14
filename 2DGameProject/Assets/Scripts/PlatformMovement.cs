@@ -13,6 +13,7 @@ public class PlstformerMoverment : MonoBehaviour
     float dashSpeed = 1.0f;
     Rigidbody2D rb;
     bool grounded = false;
+    bool dashAble = false;
     Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -40,18 +41,21 @@ public class PlstformerMoverment : MonoBehaviour
         int x = (int)Input.GetAxisRaw("Horizontal");
         anim.SetInteger("x", x);
         // dash when the e key is pressed, regardless of whether or not the player is on the ground
-        if (Input.GetKeyDown(KeyCode.E))
+
+        // bug fixing: wont dash, keycode seems correct, no force is being applied
+        if (Input.GetKeyDown(KeyCode.E) && dashAble == true)
         {
-            if (x > 0)
-            {
-                rb.AddForce(new Vector2(100 * dashSpeed, 0));
-                velocity.y = 0;
-            }
             if (x < 0)
             {
                 rb.AddForce(new Vector2(-100 * dashSpeed, 0));
-                velocity.y = 0;
+                dashAble = false;
             }
+            if (x > 0)
+            {
+                rb.AddForce(new Vector2(100 * dashSpeed, 0));
+                dashAble = false;
+            }
+            velocity.y = 0;
         }
         if(x < 0)
         {
@@ -67,6 +71,7 @@ public class PlstformerMoverment : MonoBehaviour
         if(collision.gameObject.layer == 6)
         {
             grounded = true;
+            dashAble = true;
         }
     }
 
@@ -75,6 +80,26 @@ public class PlstformerMoverment : MonoBehaviour
         if (collision.gameObject.layer == 6)
         {
             grounded = false;
+            if (collision.gameObject.tag != "MovingPlatform")
+            {
+                gameObject.transform.parent = null;
+            }
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D platformCollision)
+    {
+        // if the player is colliding with a moving plaform, attach the two
+        if (platformCollision.gameObject.tag == "MovingPlatform")
+        {
+            gameObject.transform.parent = platformCollision.gameObject.transform;
+        }
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        // when the player stops colliding with the platform, disconect the two
+        gameObject.transform.parent = null;
     }
 }
