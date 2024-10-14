@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 8ec356397e2eba84b86d1c6ba9bcc66f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 116
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ae8f857d8998749adfa81c2aac71c4
+      internalID: 563031299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f8b5825ddafe4185078e494250078
+      internalID: 1538891169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ad77e53c56e334dbab1df39eb19e52
+      internalID: -1122799446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27fe2b7c3c6d964a9700f1605edadcf
+      internalID: -846569883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8641209154ff2f44caa5023107d9f7e9
+      internalID: -1396308175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 696
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68721e2cd5dce3744a4892a0dd606703
+      internalID: 1038480490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a33113a56aeba4b915043a5edcd7df
+      internalID: 1150430271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8339bbfde76182c4b98cf6c70fe86581
+      internalID: -492450559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea500f7e71192e48a19c99a07670f34
+      internalID: -1306610353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43f398fc9a4b2b4086eddc69d7a7f25
+      internalID: -1517374695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46764d50f1bf34f9c5c0dd11992b0c
+      internalID: 941846756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_11
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 580
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b6f1cfdfdbc746a2c58ae06a20935
+      internalID: -1419667177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938d5752816dfd84b998cf069eeed888
+      internalID: -1080993101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251961d67e6425c4e88760d4eae6a71a
+      internalID: 370787349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0b30de912cac242ac26c47fd854fce
+      internalID: 1685717945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1323922065c6e34488c07826da522ebb
+      internalID: -1118217898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_16
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5942e9b133f14eafa15c071736e51
+      internalID: 1918930500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 464
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161bac9f24f6a348af12ca9d69b7a32
+      internalID: 1668500340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5461e49f710569247865debf1a8d62ff
+      internalID: 239301348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d478f2096d7f3f2419d9c9148fd7efd3
+      internalID: 774537922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14713b9668360754c8bca7c922816a82
+      internalID: 73315653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_21
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8180d0b96b05c240b454340f049c7ad
+      internalID: -1579848612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1375420bd9ce3e4180f1524ce67b124
+      internalID: 23671342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_23
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 348
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc10ae5134cb24886498ebaa182ae3
+      internalID: 1652093694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f51ecdeb227734aa726a12e6928ee6
+      internalID: -304698916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3524266a256e0d64980e880fe94259e3
+      internalID: -562437354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_26
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef841b0c71bc8b429aa9988312980e1
+      internalID: -107370857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_27
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab817e21f151e3459785a0f3835e6ee
+      internalID: -2102499341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4069b67b83912a468302f4c73e634c2
+      internalID: 937757693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_29
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 232
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0cd05fa12d1f4d82b0f3815400f3f
+      internalID: -1627122060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc820d6a59b65343bb04268e3cf8b07
+      internalID: 2079312681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c13b94ac348a43be75decda30e0fd
+      internalID: 1091837427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1617d658a292736499f987f382953b6d
+      internalID: 1617470898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0670be21a4c13f44a00c908922cfa62
+      internalID: 605869423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067f49ed9221cd24789e76f7ae0e7581
+      internalID: 1234477664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 116
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54fc6afa5c58c44dbd277624d1ffac9
+      internalID: 1192297510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc9f9e725530e468608583d4527613
+      internalID: -868448630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_37
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ec97df65b499048ab7538ac9d78a0e
+      internalID: 129204063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concept art 2D game Update 1_38
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4af64223b125d42b92206e62ef37d2
+      internalID: -196543323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Concept art 2D game Update 1_0: 563031299
+      Concept art 2D game Update 1_1: 1538891169
+      Concept art 2D game Update 1_10: 941846756
+      Concept art 2D game Update 1_11: -1419667177
+      Concept art 2D game Update 1_12: -1080993101
+      Concept art 2D game Update 1_13: 370787349
+      Concept art 2D game Update 1_14: 1685717945
+      Concept art 2D game Update 1_15: -1118217898
+      Concept art 2D game Update 1_16: 1918930500
+      Concept art 2D game Update 1_17: 1668500340
+      Concept art 2D game Update 1_18: 239301348
+      Concept art 2D game Update 1_19: 774537922
+      Concept art 2D game Update 1_2: -1122799446
+      Concept art 2D game Update 1_20: 73315653
+      Concept art 2D game Update 1_21: -1579848612
+      Concept art 2D game Update 1_22: 23671342
+      Concept art 2D game Update 1_23: 1652093694
+      Concept art 2D game Update 1_24: -304698916
+      Concept art 2D game Update 1_25: -562437354
+      Concept art 2D game Update 1_26: -107370857
+      Concept art 2D game Update 1_27: -2102499341
+      Concept art 2D game Update 1_28: 937757693
+      Concept art 2D game Update 1_29: -1627122060
+      Concept art 2D game Update 1_3: -846569883
+      Concept art 2D game Update 1_30: 2079312681
+      Concept art 2D game Update 1_31: 1091837427
+      Concept art 2D game Update 1_32: 1617470898
+      Concept art 2D game Update 1_33: 605869423
+      Concept art 2D game Update 1_34: 1234477664
+      Concept art 2D game Update 1_35: 1192297510
+      Concept art 2D game Update 1_36: -868448630
+      Concept art 2D game Update 1_37: 129204063
+      Concept art 2D game Update 1_38: -196543323
+      Concept art 2D game Update 1_4: -1396308175
+      Concept art 2D game Update 1_5: 1038480490
+      Concept art 2D game Update 1_6: 1150430271
+      Concept art 2D game Update 1_7: -492450559
+      Concept art 2D game Update 1_8: -1306610353
+      Concept art 2D game Update 1_9: -1517374695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
