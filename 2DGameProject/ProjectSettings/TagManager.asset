@@ -6,6 +6,11 @@ TagManager:
   tags:
   - 'Enemy '
   - MusicTrigger
+  - LevelOne
+  - LevelTwo
+  - LevelThree
+  - LevelFour
+  - LevelFive
   layers:
   - Default
   - TransparentFX
