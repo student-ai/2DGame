@@ -526,11 +526,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 487325592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fb6fae316390164aaf372ad39974a9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 513a9d2fcec80894690b814ef38b7416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpSpeed: 2
+  jumpSpeed: 5
+  dashSpeed: 30
 --- !u!1 &914290594
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +593,7 @@ GameObject:
   - component: {fileID: 1268733450}
   - component: {fileID: 1268733449}
   - component: {fileID: 1268733448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground main
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using UnityEngine;
 
-public class PlstformerMoverment : MonoBehaviour
+public class PlatformMovement : MonoBehaviour
 {
     [SerializeField]
     float moveSpeed = 1.0f;
@@ -31,7 +31,7 @@ public class PlstformerMoverment : MonoBehaviour
         velocity.x = moveX * moveSpeed;
         rb.velocity = velocity;
         // jump when spacebar is hit
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (Input.GetButtonDown("Jump") && grounded == true)
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             grounded = false;
@@ -43,7 +43,7 @@ public class PlstformerMoverment : MonoBehaviour
         // dash when the e key is pressed, regardless of whether or not the player is on the ground
 
         // bug fixing: wont dash, keycode seems correct, no force is being applied
-        if (Input.GetKeyDown(KeyCode.E) && dashAble == true)
+        if (Input.GetKey(KeyCode.E) && dashAble == true)
         {
             if (x < 0)
             {
