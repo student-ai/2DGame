@@ -15,11 +15,16 @@ public class PlatformMovement : MonoBehaviour
     bool grounded = false;
     bool dashAble = false;
     Animator anim;
+
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        respawnPoint = transform.position;
     }
 
     // Update is called once per frame
@@ -65,13 +70,25 @@ public class PlatformMovement : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().flipX = false;
         }
+
+        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == 6)
         {
             grounded = true;
             dashAble = true;
+        }
+
+        if (collision.tag == "FallDetector")
+        {
+            transform.position = respawnPoint;
+        }
+        else if(collision.tag == "Checkpoint")
+        {
+            respawnPoint = transform.position;
         }
     }
 

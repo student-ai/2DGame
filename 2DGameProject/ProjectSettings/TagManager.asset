@@ -11,6 +11,8 @@ TagManager:
   - LevelThree
   - LevelFour
   - LevelFive
+  - FallDetector
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
