@@ -19,7 +19,12 @@ public class LevelLoad : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "LevelTwo")
+        if (collision.gameObject.tag == "LevelOne")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Level1");
+        }
+            if (collision.gameObject.tag == "LevelTwo")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             SceneManager.LoadScene("Level2");

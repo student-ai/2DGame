@@ -30,6 +30,7 @@ public class MMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level1");
+        Time.timeScale = 1;
     }
 
     // start game at level two
@@ -37,6 +38,7 @@ public class MMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level2");
+        Time.timeScale = 1;
     }
 
     // start game at level three
@@ -44,6 +46,7 @@ public class MMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level3");
+        Time.timeScale = 1;
     }
 
     // start game at level four
@@ -51,6 +54,7 @@ public class MMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level4");
+        Time.timeScale = 1;
     }
 
     // start game at level five
@@ -58,5 +62,6 @@ public class MMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level5");
+        Time.timeScale = 1;
     }
 }

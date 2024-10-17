@@ -53,4 +53,10 @@ public class PMenu : MonoBehaviour
         //quit Application
         Application.Quit();
     }
+
+    public void back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("MainMenu");
+    }
 }
